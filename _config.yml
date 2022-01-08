@@ -17,11 +17,14 @@ exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.
 
 # 域名配置
 # baseurl配置,如果网站部署在根目录下的其他目录中，请设置为 /目录名
-domainUrl: 'https://game.kouen.live'
+domainUrl: 'https://book.kouen.live'
 baseurl: ''
 
-# sub
-subUrl: https://music.kouen.live
+# sub music
+msubUrl: https://music.kouen.live
+
+#
+gsubUrl: https://game.kouen.live
 
 # 菜单
 menu:
@@ -37,6 +40,8 @@ menu:
     url: /pages/about.html
   - title: 音楽
     url: /pages/music.html
+  - title: ゲーム
+    url: /pages/game.html
 
 # 点击页面文字冒出特效,不需要请设置为false
 extClickEffect: true
